@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.xframework</groupId>
+    <artifactId>xframework-parent</artifactId>
+    <version>1.2.0-SNAPSHOT</version>
+  </parent>
+  <artifactId>xframework-tags</artifactId>
+  <name>xframework-tags</name>
+  <description>xframework扩展的jsp标签</description>
+
+  <dependencies>
+    <!-- 常用的公共方法 -->
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+    </dependency>
+
+    <!-- Jsp API 编译时需要，不会打包 -->
+    <dependency>
+      <groupId>javax.servlet.jsp</groupId>
+      <artifactId>javax.servlet.jsp-api</artifactId>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,78 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.xframework</groupId>
+		<artifactId>xframework-parent</artifactId>
+		<version>1.2.0-SNAPSHOT</version>
+	</parent>
+	<artifactId>xframework-webapp</artifactId>
+
+	<name>xframework-webapp</name>
+	<packaging>war</packaging>
+	<description>xframework应用</description>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.xframework</groupId>
+			<artifactId>xframework-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.xframework</groupId>
+			<artifactId>xframework-lang</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.xframework</groupId>
+			<artifactId>xframework-shiro</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.xframework</groupId>
+			<artifactId>xframework-stat</artifactId>
+		</dependency>
+
+		<!-- Hibernate 验证 JSR303实现 -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>commons-fileupload</groupId>
+			<artifactId>commons-fileupload</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+		</dependency>
+
+		<!-- 编译 -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>net.sf.json-lib</groupId>
+			<artifactId>json-lib</artifactId>
+			<version>2.4</version>
+			<classifier>jdk15</classifier>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
+</project>
