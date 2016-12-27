@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.xframework</groupId>
+  <artifactId>xframework-shiro</artifactId>
+  <versioning>
+    <versions>
+      <version>1.2.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20161227093254</lastUpdated>
+  </versioning>
+</metadata>
