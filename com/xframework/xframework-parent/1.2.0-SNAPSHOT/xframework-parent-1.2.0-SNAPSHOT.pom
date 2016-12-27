@@ -113,6 +113,7 @@
 			<dependency>
 				<groupId>com.xframework</groupId>
 				<artifactId>xframework-web</artifactId>
+				<type>war</type>
 				<version>${xframework.version}</version>
 			</dependency>
 
