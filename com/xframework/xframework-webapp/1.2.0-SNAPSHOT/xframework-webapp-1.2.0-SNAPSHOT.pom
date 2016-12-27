@@ -8,7 +8,7 @@
 	</parent>
 	<artifactId>xframework-webapp</artifactId>
 
-	<name>xframework-webapp</name>
+	<name>xframework-web</name>
 	<packaging>war</packaging>
 	<description>xframework应用</description>
 
