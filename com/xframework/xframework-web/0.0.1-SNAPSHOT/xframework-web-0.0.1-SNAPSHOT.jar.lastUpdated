@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Dec 26 16:27:58 CST 2016
+@default-archetypes-webapp-https\://github.com/whowhopipi/maven/.lastUpdated=1482740878860
+https\://github.com/whowhopipi/maven/.error=Could not transfer artifact com.xframework\:xframework-web\:jar\:0.0.1-SNAPSHOT from/to archetypes-webapp (https\://github.com/whowhopipi/maven/)\: Failed to transfer https\://github.com/whowhopipi/maven/com/xframework/xframework-web/0.0.1-SNAPSHOT/xframework-web-0.0.1-SNAPSHOT.jar. Error code 406, Not Acceptable

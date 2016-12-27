@@ -1,0 +1,5 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Tue Dec 27 09:24:10 CST 2016
+default-https\://github.com/whowhopipi/maven/.lastUpdated=1482801850326
+@default-archetypes-webapp-https\://github.com/whowhopipi/maven/.lastUpdated=1482740814434
+https\://github.com/whowhopipi/maven/.error=Could not transfer artifact com.xframework\:xframework-web\:pom\:0.0.1-SNAPSHOT from/to archetypes-webapp (https\://github.com/whowhopipi/maven/)\: Failed to transfer file\: https\://github.com/whowhopipi/maven/com/xframework/xframework-web/0.0.1-SNAPSHOT/xframework-web-0.0.1-SNAPSHOT.pom. Return code is\: 406, ReasonPhrase\:Not Acceptable.

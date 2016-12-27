@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Dec 26 16:21:02 CST 2016
+@default-archetypes-webapp-https\://github.com/whowhopipi/maven/.lastUpdated=1482740461010
+https\://repo.maven.apache.org/maven2/.lastUpdated=1482740462673
+https\://github.com/whowhopipi/maven/.error=Could not transfer artifact com.xframework\:xframework-lang\:pom\:${version.xframework} from/to archetypes-webapp (https\://github.com/whowhopipi/maven/)\: Failed to transfer https\://github.com/whowhopipi/maven/com/xframework/xframework-lang/${version.xframework}/xframework-lang-${version.xframework}.pom. Error code 406, Not Acceptable
+https\://repo.maven.apache.org/maven2/.error=

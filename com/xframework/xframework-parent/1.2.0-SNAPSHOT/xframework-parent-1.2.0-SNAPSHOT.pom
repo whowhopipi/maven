@@ -27,6 +27,8 @@
 		<java.version>1.6</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
+		<xframework.version>1.2.0-SNAPSHOT</xframework.version>
+
 		<slf4j.version>1.7.12</slf4j.version>
 		<logback.version>1.1.3</logback.version>
 
@@ -66,47 +68,52 @@
 			<dependency>
 				<groupId>com.xframework</groupId>
 				<artifactId>xframework-lang</artifactId>
-				<version>${project.version}</version>
+				<version>${xframework.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.xframework</groupId>
 				<artifactId>xframework-core</artifactId>
-				<version>${project.version}</version>
+				<version>${xframework.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.xframework</groupId>
 				<artifactId>xframework-shiro</artifactId>
-				<version>${project.version}</version>
+				<version>${xframework.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.xframework</groupId>
 				<artifactId>xframework-tags</artifactId>
-				<version>${project.version}</version>
+				<version>${xframework.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.xframework</groupId>
 				<artifactId>xframework-stat</artifactId>
-				<version>${project.version}</version>
+				<version>${xframework.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.xframework</groupId>
 				<artifactId>xframework-redis</artifactId>
-				<version>${project.version}</version>
+				<version>${xframework.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.xframework</groupId>
 				<artifactId>xframework-exception</artifactId>
-				<version>${project.version}</version>
+				<version>${xframework.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.xframework</groupId>
 				<artifactId>xframework-test</artifactId>
-				<version>${project.version}</version>
+				<version>${xframework.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.xframework</groupId>
 				<artifactId>xframework-coding</artifactId>
-				<version>${project.version}</version>
+				<version>${xframework.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.xframework</groupId>
+				<artifactId>xframework-web</artifactId>
+				<version>${xframework.version}</version>
 			</dependency>
 
 
